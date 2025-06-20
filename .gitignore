@@ -1,32 +1,61 @@
-# Prerequisites
-*.d
+# Build directories
+build/
+bin/
+lib/
+Debug/
+Release/
+x64/
 
-# Compiled Object files
-*.slo
-*.lo
+# IDE files
+.vs/
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Model files (large files)
+*.pt
+*.onnx
+*.pth
+*.weights
+
+# Compressed files
+*.zip
+*.tar.gz
+*.rar
+
+# Backup files
+*.bak
+*.backup
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+
+# Compiled files
 *.o
 *.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
+*.exe
+*.dll
 *.so
 *.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
 *.a
 *.lib
 
-# Executables
-*.exe
-*.out
-*.app
+# Test output
+test_image.jpg
+captured_frame_*.jpg 

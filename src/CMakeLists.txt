@@ -1,0 +1,1 @@
+add_library(fast_face_sdk SHARED fast_face_sdk.cpp) 
